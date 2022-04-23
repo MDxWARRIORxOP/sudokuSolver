@@ -1,11 +1,5 @@
 from tkinter import *
 
-# logical stuff starts here
-
-# TODO: make the game functional and working
-
-# GUI stuff starts here
-
 root = Tk()  # create a new window
 
 root.geometry("440x620")  # set the window size to 440 width and 620 height
@@ -104,8 +98,9 @@ def generateRandomBoard():  # TODO: complete this function which generates a ran
     pass
 
 
-def quitButtonFunction():  # TODO: complete this function
-    pass
+def quitButtonFunction():
+    root.destroy()
+    quit()
 
 
 solveButton = Button(root,
