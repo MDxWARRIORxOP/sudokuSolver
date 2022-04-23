@@ -2,6 +2,9 @@
 
 I created this solver using tkinter and basic python, and prob will use dokusan in the future aswell.
 
+
+(not complete yet)
+
 credits: https://www.youtube.com/channel/UCevbDjG6jDv46QPR9_0wXVg
 
 #TODO
